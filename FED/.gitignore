@@ -4,14 +4,18 @@
 /node_modules
 
 # testing
+/backstop_data/bitmaps_test
+/backstop_data/engine_scripts
+/backstop_data/html_report
 /coverage
 
 # next.js
 /.next*/
 /out/
 
-# graphql code generation
-/.generated
+# graphql and sitecore code generation
+/.generated/*
+!/.generated/templates
 *.graphql.d.ts
 *.graphqls.d.ts
 
@@ -31,9 +35,3 @@ scjssconfig.json
 
 # vercel
 .vercel
-
-# typescript
-*.tsbuildinfo
-
-# item type definitions
-/src/.generated
