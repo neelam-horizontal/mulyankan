@@ -1,0 +1,11 @@
+{
+    "namespace": "Project.Serilization",
+    "items": {
+        "includes": [
+            {
+                "name": "template",
+                "path": "/sitecore/templates/Project/Mulyankan"
+            }
+        ]
+    }
+}

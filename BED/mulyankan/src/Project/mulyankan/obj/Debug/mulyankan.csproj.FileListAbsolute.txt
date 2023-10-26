@@ -1,0 +1,9 @@
+C:\Mulyankan\mulyankan\BED\mulyankan\src\Project\mulyankan\bin\mulyankan.dll.config
+C:\Mulyankan\mulyankan\BED\mulyankan\src\Project\mulyankan\bin\mulyankan.dll
+C:\Mulyankan\mulyankan\BED\mulyankan\src\Project\mulyankan\bin\mulyankan.pdb
+C:\Mulyankan\mulyankan\BED\mulyankan\src\Project\mulyankan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Mulyankan\mulyankan\BED\mulyankan\src\Project\mulyankan\obj\Debug\mulyankan.csproj.AssemblyReference.cache
+C:\Mulyankan\mulyankan\BED\mulyankan\src\Project\mulyankan\obj\Debug\mulyankan.csproj.CoreCompileInputs.cache
+C:\Mulyankan\mulyankan\BED\mulyankan\src\Project\mulyankan\obj\Debug\mulyankan.csproj.CopyComplete
+C:\Mulyankan\mulyankan\BED\mulyankan\src\Project\mulyankan\obj\Debug\mulyankan.dll
+C:\Mulyankan\mulyankan\BED\mulyankan\src\Project\mulyankan\obj\Debug\mulyankan.pdb
