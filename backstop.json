@@ -1,0 +1,130 @@
+{
+  "id": "jss_starter",
+  "viewports": [
+    {
+      "label": "phone",
+      "width": 320,
+      "height": 480
+    },
+    {
+      "label": "tablet",
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "onBeforeScript": "",
+  "onReadyScript": "",
+  "scenarios": [
+    {
+      "label": "Helpers/General/Button",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://host.docker.internal:6006/iframe.html?viewMode=docs&id=helpers-general-button--docs",
+      "referenceUrl": "",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 2000,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [
+        "#story--helpers-general-button--default--primary",
+        "#story--helpers-general-button--default",
+        "#story--helpers-general-button--disabled",
+        "#story--helpers-general-button--icon-left",
+        "#story--helpers-general-button--icon-only",
+        "#story--helpers-general-button--icon-right",
+        "#story--helpers-general-button--loading"
+      ],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold": 0.9,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Helpers/General/Font Awesome Icon",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://host.docker.internal:6006/iframe.html?viewMode=docs&id=helpers-general-font-awesome-icon--docs",
+      "referenceUrl": "",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 2000,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": ["#story--helpers-general-font-awesome-icon--default--primary"],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Helpers/General/Google Material Symbol",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://host.docker.internal:6006/iframe.html?viewMode=docs&id=helpers-general-google-material-symbol--docs",
+      "referenceUrl": "",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 2000,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": ["#story--helpers-general-google-material-symbol--default--primary"],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Helpers/General/Text",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://host.docker.internal:6006/iframe.html?viewMode=docs&id=helpers-general-text--docs",
+      "referenceUrl": "",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 2000,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [
+        "#story--helpers-general-text--default--primary",
+        "#story--helpers-general-text--default",
+        "#story--helpers-general-text--blockquote",
+        "#story--helpers-general-text--bold",
+        "#story--helpers-general-text--deleted",
+        "#story--helpers-general-text--em",
+        "#story--helpers-general-text--heading",
+        "#story--helpers-general-text--italics",
+        "#story--helpers-general-text--span",
+        "#story--helpers-general-text--small"
+      ],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold": 0.1,
+      "requireSameDimensions": true
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}

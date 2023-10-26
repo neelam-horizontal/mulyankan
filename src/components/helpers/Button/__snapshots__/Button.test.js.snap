@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as disabled 1`] = `
+<button
+  class="disabled:bg-gray-light disabled:cursor-not-allowed disabled:text-gray enabled:duration-150 enabled:transition hover:ease-in h-10 inline-block leading-10 py-0 px-4 rounded-md text-center whitespace-nowrap bg-primary hover:text-theme-btn-primary-text/50 text-theme-btn-primary-text min-w-[10rem]"
+  disabled=""
+>
+  <div
+    class="gap-4 h-10 inline-flex items-center justify-center leading-10 relative -top-px"
+  >
+    Button
+  </div>
+</button>
+`;
+
+exports[`renders correctly 1`] = `
+<button
+  class="disabled:bg-gray-light disabled:cursor-not-allowed disabled:text-gray enabled:duration-150 enabled:transition hover:ease-in h-10 inline-block leading-10 py-0 px-4 rounded-md text-center whitespace-nowrap bg-primary hover:text-theme-btn-primary-text/50 text-theme-btn-primary-text min-w-[10rem]"
+>
+  <div
+    class="gap-4 h-10 inline-flex items-center justify-center leading-10 relative -top-px"
+  >
+    Button
+  </div>
+</button>
+`;
+
+exports[`renders with icon only 1`] = `
+<button
+  class="disabled:bg-gray-light disabled:cursor-not-allowed disabled:text-gray enabled:duration-150 enabled:transition hover:ease-in h-10 inline-block leading-10 py-0 px-4 rounded-md text-center whitespace-nowrap bg-primary hover:text-theme-btn-primary-text/50 text-theme-btn-primary-text"
+>
+  <div
+    class="gap-4 h-10 inline-flex items-center justify-center leading-10 relative -top-px"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-power-off "
+      data-icon="power-off"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V256c0 17.7 14.3 32 32 32s32-14.3 32-32V32zM143.5 120.6c13.6-11.3 15.4-31.5 4.1-45.1s-31.5-15.4-45.1-4.1C49.7 115.4 16 181.8 16 256c0 132.5 107.5 240 240 240s240-107.5 240-240c0-74.2-33.8-140.6-86.6-184.6c-13.6-11.3-33.8-9.4-45.1 4.1s-9.4 33.8 4.1 45.1c38.9 32.3 63.5 81 63.5 135.4c0 97.2-78.8 176-176 176s-176-78.8-176-176c0-54.4 24.7-103.1 63.5-135.4z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+</button>
+`;
+
+exports[`renders with left icon 1`] = `
+<button
+  class="disabled:bg-gray-light disabled:cursor-not-allowed disabled:text-gray enabled:duration-150 enabled:transition hover:ease-in h-10 inline-block leading-10 py-0 px-4 rounded-md text-center whitespace-nowrap bg-primary hover:text-theme-btn-primary-text/50 text-theme-btn-primary-text min-w-[10rem]"
+>
+  <div
+    class="gap-4 h-10 inline-flex items-center justify-center leading-10 relative -top-px"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-calendar "
+      data-icon="calendar"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"
+        fill="currentColor"
+      />
+    </svg>
+    Button
+  </div>
+</button>
+`;
+
+exports[`renders with loading indicator 1`] = `
+<button
+  class="disabled:bg-gray-light disabled:cursor-not-allowed disabled:text-gray enabled:duration-150 enabled:transition hover:ease-in h-10 inline-block leading-10 py-0 px-4 rounded-md text-center whitespace-nowrap bg-primary hover:text-theme-btn-primary-text/50 text-theme-btn-primary-text min-w-[10rem]"
+>
+  <div
+    class="gap-4 h-10 inline-flex items-center justify-center leading-10 relative -top-px"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-spinner fa-spin-pulse "
+      data-icon="spinner"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+</button>
+`;
+
+exports[`renders with right icon 1`] = `
+<button
+  class="disabled:bg-gray-light disabled:cursor-not-allowed disabled:text-gray enabled:duration-150 enabled:transition hover:ease-in h-10 inline-block leading-10 py-0 px-4 rounded-md text-center whitespace-nowrap bg-primary hover:text-theme-btn-primary-text/50 text-theme-btn-primary-text min-w-[10rem]"
+>
+  <div
+    class="gap-4 h-10 inline-flex items-center justify-center leading-10 relative -top-px"
+  >
+    Button
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-calendar "
+      data-icon="calendar"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+</button>
+`;
