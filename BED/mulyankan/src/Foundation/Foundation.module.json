@@ -1,0 +1,11 @@
+{
+    "namespace": "Foundation.Serilization",
+    "items": {
+        "includes": [
+            {
+                "name": "template",
+                "path": "/sitecore/templates/Foundation/Mulyankan"
+            }
+        ]
+    }
+}
