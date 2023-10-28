@@ -1,5 +1,4 @@
 // import { Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-import { Field } from '@sitecore-jss/sitecore-jss-nextjs';
 import { Mulyankan } from '.generated/templates/models/Feature.Mulyankan.model';
 
 // Local
@@ -27,7 +26,7 @@ const ContentBlock = ({ fields }: ContentBlockProps): JSX.Element => {
       data-testid="contentblock"
     >
       {/* <p className="font-bold">ContentBlocksss</p>   */}
-      <p>{fields.eyebrow.value}</p>
+      <p className="fs-5 fw-medium mb-1 text-center  text-turquoise-dark text-yellow-700">{fields.eyebrow.value}</p>
       <h1>{fields.title.value}</h1>
       <RichTextA11yWrapper data-testid="contentblock" field={fields.description} editable />
     </div>
