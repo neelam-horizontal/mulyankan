@@ -6,7 +6,7 @@ Path: /sitecore/templates/Feature/Mulyankan/Data Templates/ContentBlock/Content 
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: dataSource=/sitecore/content/Mulyankan/Learning/Data/Components/Cards
+  Value: /sitecore/content/Mulyankan/Learning/Data/Components/ContentBlock/Cards
 - ID: "337e20e1-999a-4eea-85ad-b58a03ae75cc"
   Hint: Quick Action Bar
   Value: "{59D4EE10-627C-4FD3-A964-61A88B092CBC}"
@@ -34,11 +34,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "da46010f-0acf-4fc6-bc23-bcb45e27078f"
+      Value: "ab9e308c-d10c-4892-bf8b-fa43a644b7af"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T090329Z
+      Value: 20231028T103853Z

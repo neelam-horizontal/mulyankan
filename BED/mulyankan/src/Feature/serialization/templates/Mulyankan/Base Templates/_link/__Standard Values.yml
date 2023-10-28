@@ -30,5 +30,5 @@ Languages:
       Hint: __Updated
       Value: 20231028T085943Z
     - ID: "e5cd72da-959d-43a9-a0bd-aea638831252"
-      Hint: title
+      Hint: linkTitle
       Value: $name

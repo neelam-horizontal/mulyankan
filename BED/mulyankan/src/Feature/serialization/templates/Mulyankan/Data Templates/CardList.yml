@@ -1,18 +1,16 @@
 ﻿---
-ID: "4fb37ce8-5f63-4651-9ac7-f5001161e468"
-Parent: "4e9eb68f-9a06-4065-9fa2-726b4a80f31b"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Mulyankan/Data Templates/Header/Navigations/Navigation
+ID: "593a94aa-aa8a-45c3-a09f-1bb54e2531d8"
+Parent: "9963822a-4aa7-44af-a0ef-cb3b14f13963"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Mulyankan/Data Templates/CardList
 SharedFields:
-- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
-  Hint: Source
-  Value: "query:self:://*[@@templatename='PrimaryHeaderNavigation']"
-- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
-  Hint: Type
-  Value: Multilist
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 100
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {EFFA47F3-34CD-47D7-8A43-9AB02421C873}
+    {3D23895C-AE15-4F39-B368-64475CF012C5}
+    {58C031CB-F6BA-4D32-8B12-7B085DEAAB3A}
 Languages:
 - Language: en
   Versions:
@@ -20,7 +18,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T092222Z
+      Value: 20231028T095353Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +29,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ae8f5acb-0092-4127-b8c7-fce6048bf299"
+      Value: "8617fc68-2a69-4d5a-8dec-4bde8b3889bd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T092251Z
+      Value: 20231028T095835Z
