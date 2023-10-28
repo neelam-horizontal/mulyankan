@@ -22,7 +22,11 @@ const nextConfig = {
   env: {
     PUBLIC_URL: publicUrl,
   },
-
+  reactStrictMode: true,
+  images: {
+    domains:["scmulyankansc.dev.local"],
+    dangerouslyAllowSVG: true,
+  },
   i18n: {
     // These are all the locales you want to support in your application.
     // These should generally match (or at least be a subset of) those in Sitecore.
@@ -59,5 +63,6 @@ const nextConfig = {
 
 module.exports = () => {
   // Run the base config through any configured plugins
+  
   return Object.values(plugins).reduce((acc, plugin) => plugin(acc), nextConfig);
 };
