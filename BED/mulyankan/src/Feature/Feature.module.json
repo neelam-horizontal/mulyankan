@@ -3,9 +3,14 @@
     "items": {
         "includes": [
             {
-                "name": "template",
-                "path": "/sitecore/templates/Feature/Mulyankan"
+                "name": "templates",
+                "path": "/sitecore/templates/Feature/Mulyankan",
             }
         ]
+    },"leprechaun": {
+    "configuration": {
+      "@extends": "Mulyankan.Base",
+      "@name": "Feature.Mulyankan"
     }
+  }
 }
