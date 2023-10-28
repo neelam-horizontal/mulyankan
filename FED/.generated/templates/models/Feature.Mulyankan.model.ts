@@ -16,6 +16,18 @@ import { DefaultComponentProps } from '@/lib/component-props';
 
 
 export namespace Mulyankan.Fields {
+    export type Footer = { 
+        fields?: { 
+            /**
+            * Represents the Title field (bfcf9dc3-27a5-402d-ac1b-72cfc478a0f7).
+            */
+            Title: LinkField;
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.Fields {
     export type Header = { 
         fields?: { 
             /**
