@@ -26,8 +26,8 @@ const ContentBlock = ({ fields }: ContentBlockProps): JSX.Element => {
       data-component="authorable/general/contentblock"
       data-testid="contentblock"
     >
-      <p className='fs-5 fw-medium mb-1 text-center  text-turquoise-dark'>{fields.eyebrow.value}</p>
-      <h1 className='display-5 mb-4'>{fields.title.value}</h1>
+      <p className='text-xl font-medium text-primary'>{fields.eyebrow.value}</p>
+      <h1 className='text-5xl font-bold mb-4'>{fields.title.value}</h1>
       <RichTextA11yWrapper field={fields.description} editable />
       <a className="d-inline-flex align-items-center rounded overflow-hidden border border-primary">
                         <span className="btn-lg-square bg-primary">

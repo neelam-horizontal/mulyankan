@@ -25,7 +25,6 @@ export const Default = (props: RichTextProps): JSX.Element => {
     >
 
       <div className="component-content">{text}</div>
-      <div className="component-content">xyz</div>
       <RichTextA11yWrapper></RichTextA11yWrapper>
     </div>
   );
