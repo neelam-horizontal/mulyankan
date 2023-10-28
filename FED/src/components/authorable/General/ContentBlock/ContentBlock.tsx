@@ -1,20 +1,19 @@
 // import { Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
 import { Field } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Mulyankan } from '.generated/templates/models/Feature.Mulyankan.model';
 
 // Local
 import RichTextA11yWrapper from 'components/helpers/RichTextA11yWrapper/RichTextA11yWrapper';
 
-// Ideally, all this is from generated Typescript code from Sitecore and we're not manually defining types.
-interface Fields {
-  eyebrow: Field<string>;
-  title: Field<string>;
-  description: Field<string>;
-}
+// // Ideally, all this is from generated Typescript code from Sitecore and we're not manually defining types.
+// interface Fields {
+//   eyebrow: Field<string>;
+//   title: Field<string>;
+//   description: Field<string>;
+// }
 
-export type ContentBlockProps = {
-  rendering: { componentName: string };
-  params: { [key: string]: string };
-  fields: Fields;
+export type ContentBlockProps = Mulyankan.DataTemplates.Fields.ContentBlock &{
+  fields: Mulyankan.DataTemplates.Fields.ContentBlock;
 };
 
 const ContentBlock = ({ fields }: ContentBlockProps): JSX.Element => {
