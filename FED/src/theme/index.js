@@ -1,13 +1,13 @@
 import base from './tailwind.base';
-import brandA from './tailwind.brand-a';
-import brandZ from './tailwind.brand-z';
+/*import brandA from './tailwind.brand-a';
+import brandZ from './tailwind.brand-z';*/
 
 const themes = {
   Base: base,
-  BrandA: brandA,
-  BrandZ: brandZ,
+  // BrandA: brandA,
+  // BrandZ: brandZ,
   default: base,
-  themes: [brandA, brandZ],
+  // themes: [brandA, brandZ],
 };
 
 export default themes;
