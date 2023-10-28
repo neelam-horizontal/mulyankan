@@ -17,25 +17,26 @@ const theme = {
       portrait: '2 / 3',
       square: '1 / 1',
     },
-    borderRadius: {
-      ...objectMap(TOKENS.BorderRadius, (v) => v.value),
-    },
-    borderWidth: {
-      ...objectMap(TOKENS.BorderWidth, (v) => v.value),
-    },
     colors: {
-      brand: {
-        ...objectMap(TOKENS['Brand Colors'].Brand, (v) => v.value),
-      },
-      scale: {
-        ...objectMap(TOKENS['Brand Colors'].Scale, (v) => v.value),
-      },
+      'light-gray': '#d8d8d8',
+      'dark-gray': '#393738',
+      gray: '#9e9e9e',
+      primary: '#7FC3BA',
+      rose:'#F8AA97',
+      'dark-rose':'#D79181',
+      salmon:'#F58466',
+      beige:'#F0EFE7',      
+      turquoise:'#7FC3BA',
+      'turquoise-dark':'#6BA69E',
+      'turquoise-black':'#497978',
+      green: '#2F4E40',     
+      white: '#FFFFFF',
+      black: '#2F2D2E',     
+      'errors-white': '#E02020',
+      'errors-black': '#FF5E5E'
     },
     fontFamily: {
-      ...objectMap(TOKENS.fontFamilies, (v) => [v.value]),
-    },
-    lineHeight: {
-      ...objectMap(TOKENS.lineHeights, (v) => v.value),
+      'futura-pt': 'Futura-pt',
     },
     screens: {
       '2xl': '1536px',
