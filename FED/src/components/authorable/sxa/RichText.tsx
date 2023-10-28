@@ -7,9 +7,8 @@ interface Fields {
   Text: Field<string>;
 
 }
-export type ImageProps = Mulyankan.Fields.Header &{
-  fields: Mulyankan.Fields.Header;
-  Image: Mulyankan.Fields.Header
+export type ImageProps = Mulyankan.DataTemplates.Fields.Header &{
+  fields: Mulyankan.DataTemplates.Fields.Header
 }
 export type RichTextProps = {
   params: { [key: string]: string };
@@ -32,7 +31,15 @@ export const Default = (props: RichTextProps): JSX.Element => {
 
       <div className="component-content">{text}</div>
       <div className="">hello</div>
-      <ImageWrapper field={fields.Headline}></ImageWrapper>
+     
+    </div>
+  );
+};
+export const Image = (props: ImageProps): JSX.Element => {
+
+  return (
+    <div>
+     <ImageWrapper field={props.fields['Logo Image']}></ImageWrapper>
     </div>
   );
 };
