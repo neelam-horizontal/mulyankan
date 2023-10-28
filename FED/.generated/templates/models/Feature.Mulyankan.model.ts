@@ -95,14 +95,19 @@ export namespace Mulyankan.DataTemplates.Fields {
             Link: LinkField;
 
             /**
+            * Represents the Navigation field (4fb37ce8-5f63-4651-9ac7-f5001161e468).
+            */
+            Navigation: Sitecore.Override.ItemEx[];
+
+            /**
             * Represents the Phone field (ab52353b-a64a-4cc0-abda-25568d128a27).
             */
             Phone: Field<string>;
 
             /**
-            * Represents the Social Media Links field (f6f2229c-af8e-4faa-979d-c7dc15d8cdd6).
+            * Represents the SocialMediaLinks field (f6f2229c-af8e-4faa-979d-c7dc15d8cdd6).
             */
-            "Social Media Links": Sitecore.Override.ItemEx[];
+            SocialMediaLinks: Sitecore.Override.ItemEx[];
  
         }
  }; 
