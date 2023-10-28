@@ -1,0 +1,54 @@
+﻿---
+ID: "c0bc3f58-b726-4c84-9013-674ac9195f63"
+Parent: "bfb54450-5faa-42bb-8b3d-25a0e9525ffc"
+Template: "bfb54450-5faa-42bb-8b3d-25a0e9525ffc"
+Path: /sitecore/templates/Feature/Mulyankan/Data Templates/Footer/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "064a89bf-227a-4946-ae50-53184288d4b9"
+      Hint: businessTitle
+      Value: Business Hours
+    - ID: "14ea6744-9aea-43ad-a652-65e4840af938"
+      Hint: businessDescription
+      Value: |
+        <div>
+        <p>Monday - Friday</p>
+        <h6>09:00 am - 07:00 pm</h6>
+        <p>Saturday</p>
+        <h6>09:00 am - 12:00 pm</h6>
+        <p>Sunday</p>
+        <h6>Closed</h6>
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T065627Z
+    - ID: "5751a599-dcff-46c5-a4ab-59247a8a8ba2"
+      Hint: copyRightText
+      Value: <p>© Your Site Name, All Right Reserved.</p>
+    - ID: "8306c1e3-1835-4373-ac42-a981650435c1"
+      Hint: links
+      Value: |
+        {E0F4C8DF-D1A0-4F8A-8A41-CAB5B348F6DC}
+        {D7BB6557-970D-4643-9C32-EC6CF0E3CA41}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3189f9ba-38c3-46df-8eb3-020c0509b369"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bfc52c2b-76aa-4a43-ba32-8c622963844c"
+      Hint: designedByText
+      Value: <p>Designed By HTML Codex Distributed By ThemeWagon</p>
+    - ID: "bfcf9dc3-27a5-402d-ac1b-72cfc478a0f7"
+      Hint: linksTitle
+      Value: Quick Links
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T065926Z
+    - ID: "ee6de7fa-8f5f-4de1-8e89-060e473e20e0"
+      Hint: variant
+      Value: primary

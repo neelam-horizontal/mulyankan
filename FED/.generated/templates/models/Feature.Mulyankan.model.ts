@@ -15,25 +15,275 @@ import { ComponentRendering, RouteData, Field, ImageField, FileField, LinkField 
 import { DefaultComponentProps } from '@/lib/component-props';
 
 
-export namespace Mulyankan.Fields {
-    export type Footer = { 
+export namespace Mulyankan.DataTemplates.Fields {
+    export type ContentBlock = 
+            Mulyankan.BaseTemplates.Fields.title & 
+            Mulyankan.BaseTemplates.Fields.descriptionMulti & 
+            Mulyankan.BaseTemplates.Fields.link & 
+            Mulyankan.BaseTemplates.Fields.variant & { 
         fields?: { 
             /**
-            * Represents the Title field (bfcf9dc3-27a5-402d-ac1b-72cfc478a0f7).
+            * Represents the cards field (5b9d52c4-0447-490a-adfc-f33dc52ae66d).
             */
-            Title: LinkField;
+            cards: Sitecore.Override.ItemEx[];
+
+            /**
+            * Represents the eyebrow field (77d4a800-c3b6-42c1-b501-bbc91b6b21d0).
+            */
+            eyebrow: Field<string>;
  
         }
  }; 
 }
 
-export namespace Mulyankan.Fields {
-    export type Header = { 
+export namespace Mulyankan.DataTemplates.Fields {
+    export type Footer = 
+            Mulyankan.DataTemplates.Fields.officeDetail & 
+            Mulyankan.BaseTemplates.Fields.variant & { 
         fields?: { 
             /**
-            * Represents the Headline field (54093b7e-1511-49ba-bfca-14d918cd88af).
+            * Represents the businessDescription field (14ea6744-9aea-43ad-a652-65e4840af938).
             */
-            Headline: Field<string>;
+            businessDescription: Field<string>;
+
+            /**
+            * Represents the businessTitle field (064a89bf-227a-4946-ae50-53184288d4b9).
+            */
+            businessTitle: Field<string>;
+
+            /**
+            * Represents the copyRightText field (5751a599-dcff-46c5-a4ab-59247a8a8ba2).
+            */
+            copyRightText: Field<string>;
+
+            /**
+            * Represents the designedByText field (bfc52c2b-76aa-4a43-ba32-8c622963844c).
+            */
+            designedByText: Field<string>;
+
+            /**
+            * Represents the links field (8306c1e3-1835-4373-ac42-a981650435c1).
+            */
+            links: Sitecore.Override.ItemEx[];
+
+            /**
+            * Represents the linksTitle field (bfcf9dc3-27a5-402d-ac1b-72cfc478a0f7).
+            */
+            linksTitle: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.DataTemplates.Fields {
+    export type Header = 
+            Mulyankan.BaseTemplates.Fields.logo & { 
+        fields?: { 
+            /**
+            * Represents the Address field (ad4c5acc-1952-4a94-9ad7-2ed57f145f95).
+            */
+            Address: Field<string>;
+
+            /**
+            * Represents the Email field (52f09a50-46c6-4b36-98b9-d310c76fc212).
+            */
+            Email: Field<string>;
+
+            /**
+            * Represents the Link field (b71a29b0-b6cc-41db-a945-fa1c528ce887).
+            */
+            Link: LinkField;
+
+            /**
+            * Represents the Phone field (ab52353b-a64a-4cc0-abda-25568d128a27).
+            */
+            Phone: Field<string>;
+
+            /**
+            * Represents the Social Media Links field (f6f2229c-af8e-4faa-979d-c7dc15d8cdd6).
+            */
+            "Social Media Links": Sitecore.Override.ItemEx[];
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.DataTemplates.Fields {
+    export type PrimaryHeaderNavigation = 
+            Mulyankan.BaseTemplates.Fields.link & { 
+        fields?: { 
+            /**
+            * Represents the Navigations field (65f123f7-10c3-4808-b7f7-daf5bc3aee89).
+            */
+            Navigations: Sitecore.Override.ItemEx[];
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.DataTemplates.Fields {
+    export type SecondaryHeaderNavigation = 
+            Mulyankan.BaseTemplates.Fields.link & { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace Mulyankan.BaseTemplates.Fields {
+    export type cardImage = { 
+        fields?: { 
+            /**
+            * Represents the description field (756786b5-bd35-4d45-85db-6a2b5ce229ce).
+            */
+            description: Field<string>;
+
+            /**
+            * Represents the image field (72d12634-63df-4091-a997-6690ab103654).
+            */
+            image: ImageField;
+
+            /**
+            * Represents the title field (e80a0d2b-09df-4aec-b41e-85a39d72be94).
+            */
+            title: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.BaseTemplates.Fields {
+    export type descriptionMulti = { 
+        fields?: { 
+            /**
+            * Represents the description field (2715ef1d-3bf7-4305-b860-e88589393d51).
+            */
+            description: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.BaseTemplates.Fields {
+    export type descriptionRte = { 
+        fields?: { 
+            /**
+            * Represents the description field (1624e4c8-da61-4981-a52a-c0630c68da48).
+            */
+            description: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.BaseTemplates.Fields {
+    export type image = { 
+        fields?: { 
+            /**
+            * Represents the image field (3e0029e5-ac05-4240-8612-adee29496186).
+            */
+            image: ImageField;
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.BaseTemplates.Fields {
+    export type link = { 
+        fields?: { 
+            /**
+            * Represents the link field (00a22558-ceca-4aeb-a5ff-301e2f90b965).
+            */
+            link: LinkField;
+
+            /**
+            * Represents the linkTitle field (e5cd72da-959d-43a9-a0bd-aea638831252).
+            */
+            linkTitle: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.BaseTemplates.Fields {
+    export type logo = { 
+        fields?: { 
+            /**
+            * Represents the Logo Image field (dd8f7576-a925-431e-aa73-fdf162563c00).
+            */
+            "Logo Image": ImageField;
+
+            /**
+            * Represents the Logo Url field (cc36b6c2-87d8-4839-ad5e-13e317d8c14d).
+            */
+            "Logo Url": LinkField;
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.BaseTemplates.Fields {
+    export type title = { 
+        fields?: { 
+            /**
+            * Represents the title field (0687cae3-e679-43d3-ade2-c0dbb4a131b7).
+            */
+            title: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.BaseTemplates.Fields {
+    export type variant = { 
+        fields?: { 
+            /**
+            * Represents the variant field (ee6de7fa-8f5f-4de1-8e89-060e473e20e0).
+            */
+            variant: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.BaseTemplates.Fields {
+    export type variantName = { 
+        fields?: { 
+            /**
+            * Represents the variantName field (0e90ac0b-e2bd-4499-80da-373310e2e47f).
+            */
+            variantName: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.DataTemplates.Fields {
+    export type officeDetail = { 
+        fields?: { 
+            /**
+            * Represents the officeAddress field (1599a9da-f384-48ff-b388-6a03f2705375).
+            */
+            officeAddress: Field<string>;
+
+            /**
+            * Represents the officeEmail field (c29cc266-3a38-43a4-9221-a2cb205a4257).
+            */
+            officeEmail: Field<string>;
+
+            /**
+            * Represents the officeNumber field (268c18df-b80f-4b4d-a53f-3d923b439aae).
+            */
+            officeNumber: Field<string>;
+
+            /**
+            * Represents the officeTitle field (80e19b72-795e-428e-97ff-2ac1c71a0900).
+            */
+            officeTitle: Field<string>;
+
+            /**
+            * Represents the socialLinks field (80ebb794-35c7-41e4-a093-7ddc4faa044e).
+            */
+            socialLinks: Sitecore.Override.ItemEx[];
  
         }
  }; 

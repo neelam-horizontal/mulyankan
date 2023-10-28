@@ -1,0 +1,50 @@
+﻿---
+ID: "af79aebc-e56b-4f48-a6dc-2412cebac72a"
+Parent: "edade142-97f4-4795-92a2-11897007781d"
+Template: "edade142-97f4-4795-92a2-11897007781d"
+Path: /sitecore/templates/Feature/Mulyankan/Data Templates/officeDetail/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1599a9da-f384-48ff-b388-6a03f2705375"
+      Hint: officeAddress
+      Value: 123 Street, New York, USA
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T062059Z
+    - ID: "268c18df-b80f-4b4d-a53f-3d923b439aae"
+      Hint: officeNumber
+      Value: +012 345 67890
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "80e19b72-795e-428e-97ff-2ac1c71a0900"
+      Hint: officeTitle
+      Value: Our Office
+    - ID: "80ebb794-35c7-41e4-a093-7ddc4faa044e"
+      Hint: socialLinks
+      Value: |
+        {30BF0AB9-EC12-45D7-84A4-BB595BBBAA6E}
+        {869C4681-E987-4EA7-ABC2-B8359580B1E7}
+        {3D269C70-8160-4082-9630-D7D2245D4B61}
+        {8EDC94D5-1166-48B6-8489-74D610989B70}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ddd07ce8-8aaf-4b10-936b-9b8cb07de1b3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c29cc266-3a38-43a4-9221-a2cb205a4257"
+      Hint: officeEmail
+      Value: info@example.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T073618Z
