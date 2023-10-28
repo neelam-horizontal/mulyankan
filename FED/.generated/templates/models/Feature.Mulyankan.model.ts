@@ -16,7 +16,35 @@ import { DefaultComponentProps } from '@/lib/component-props';
 
 
 export namespace Mulyankan.DataTemplates.Fields {
+    export type Banner = { 
+        fields?: { 
+            /**
+            * Represents the Banners field (034e8781-2c4f-44df-8026-d80dafc17573).
+            */
+            Banners: Sitecore.Override.ItemEx[];
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.DataTemplates.Fields {
+    export type CardList = 
+            Mulyankan.BaseTemplates.Fields.eyebrow & 
+            Mulyankan.BaseTemplates.Fields.title & 
+            Mulyankan.BaseTemplates.Fields.variant & { 
+        fields?: { 
+            /**
+            * Represents the cards field (d838792c-f7a8-4c32-a0b8-818e5b4246e6).
+            */
+            cards: Sitecore.Override.ItemEx[];
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.DataTemplates.Fields {
     export type ContentBlock = 
+            Mulyankan.BaseTemplates.Fields.eyebrow & 
             Mulyankan.BaseTemplates.Fields.title & 
             Mulyankan.BaseTemplates.Fields.descriptionMulti & 
             Mulyankan.BaseTemplates.Fields.link & 
@@ -26,11 +54,6 @@ export namespace Mulyankan.DataTemplates.Fields {
             * Represents the cards field (5b9d52c4-0447-490a-adfc-f33dc52ae66d).
             */
             cards: Sitecore.Override.ItemEx[];
-
-            /**
-            * Represents the eyebrow field (77d4a800-c3b6-42c1-b501-bbc91b6b21d0).
-            */
-            eyebrow: Field<string>;
  
         }
  }; 
@@ -95,14 +118,19 @@ export namespace Mulyankan.DataTemplates.Fields {
             Link: LinkField;
 
             /**
+            * Represents the NavigationItems field (4fb37ce8-5f63-4651-9ac7-f5001161e468).
+            */
+            NavigationItems: Sitecore.Override.ItemEx[];
+
+            /**
             * Represents the Phone field (ab52353b-a64a-4cc0-abda-25568d128a27).
             */
             Phone: Field<string>;
 
             /**
-            * Represents the Social Media Links field (f6f2229c-af8e-4faa-979d-c7dc15d8cdd6).
+            * Represents the SocialMediaLinks field (f6f2229c-af8e-4faa-979d-c7dc15d8cdd6).
             */
-            "Social Media Links": Sitecore.Override.ItemEx[];
+            SocialMediaLinks: Sitecore.Override.ItemEx[];
  
         }
  }; 
@@ -130,23 +158,12 @@ export namespace Mulyankan.DataTemplates.Fields {
 }
 
 export namespace Mulyankan.BaseTemplates.Fields {
-    export type cardImage = { 
-        fields?: { 
-            /**
-            * Represents the description field (756786b5-bd35-4d45-85db-6a2b5ce229ce).
-            */
-            description: Field<string>;
-
-            /**
-            * Represents the image field (72d12634-63df-4091-a997-6690ab103654).
-            */
-            image: ImageField;
-
-            /**
-            * Represents the title field (e80a0d2b-09df-4aec-b41e-85a39d72be94).
-            */
-            title: Field<string>;
- 
+    export type card = 
+            Mulyankan.BaseTemplates.Fields.link & 
+            Mulyankan.BaseTemplates.Fields.image & 
+            Mulyankan.BaseTemplates.Fields.title & 
+            Mulyankan.BaseTemplates.Fields.descriptionRte & { 
+        fields?: {  
         }
  }; 
 }
@@ -170,6 +187,18 @@ export namespace Mulyankan.BaseTemplates.Fields {
             * Represents the description field (1624e4c8-da61-4981-a52a-c0630c68da48).
             */
             description: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.BaseTemplates.Fields {
+    export type eyebrow = { 
+        fields?: { 
+            /**
+            * Represents the eyebrow field (697c68a9-af62-47fb-84bd-cb287ef8c933).
+            */
+            eyebrow: Field<string>;
  
         }
  }; 

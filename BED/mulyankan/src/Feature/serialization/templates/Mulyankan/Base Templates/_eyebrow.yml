@@ -1,20 +1,27 @@
 ﻿---
-ID: "3a1bc264-73b8-40f4-80e3-a32f22b7327c"
-Parent: "79b7aa99-1b0d-4f6c-9327-a38a5606a3bf"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Mulyankan/Base Templates/_card_image/Card Image
+ID: "effa47f3-34cd-47d7-8a43-9ab02421c873"
+Parent: "3849cf46-412f-4511-8b2a-e3d57908e3f8"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Mulyankan/Base Templates/_eyebrow
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{52EA69A8-33FE-4D21-AF11-995B4F736B75}"
 Languages:
 - Language: en
   Fields:
   - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
     Hint: __Short description
-    Value: Card_With_Image
+    Value: Enter title here
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T073328Z
+      Value: 20231028T052425Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -25,11 +32,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "87f8e2ee-9735-43c9-966b-4e06bb565a76"
+      Value: "673656cb-603d-498a-8e09-52b342728d23"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T073548Z
+      Value: 20231028T095502Z

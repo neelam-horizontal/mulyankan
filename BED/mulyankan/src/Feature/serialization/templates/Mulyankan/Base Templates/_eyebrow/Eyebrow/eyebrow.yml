@@ -1,18 +1,15 @@
 ﻿---
-ID: "f6f2229c-af8e-4faa-979d-c7dc15d8cdd6"
-Parent: "15dc1cef-f5f9-4239-b03d-37055e8293da"
+ID: "697c68a9-af62-47fb-84bd-cb287ef8c933"
+Parent: "28565bde-d7c8-4ee2-ac66-db30d4ccf65a"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Mulyankan/Data Templates/Header/Top Navigation Right Section/Social Media Links
+Path: /sitecore/templates/Feature/Mulyankan/Base Templates/_eyebrow/Eyebrow/eyebrow
 SharedFields:
-- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
-  Hint: Source
-  Value: "{8C6C0D34-4826-4F59-9488-64C99E69677E}"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Multilist
+  Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 400
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -20,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T073530Z
+      Value: 20231028T052441Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +28,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5f4ff767-ee36-4545-b53d-d5475a47dbd6"
+      Value: "25b1ac4f-4f09-4e5b-bf8f-910e9280acd2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T074457Z
+      Value: 20231028T095522Z
