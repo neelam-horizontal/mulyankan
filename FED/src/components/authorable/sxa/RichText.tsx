@@ -1,14 +1,9 @@
 import React from 'react';
-import { Field, RichText as JssRichText, NextImage } from '@sitecore-jss/sitecore-jss-nextjs';
-import ImageWrapper from '@/components/helpers/ImageWrapper/ImageWrapper';
-import { Mulyankan } from '.generated/templates/models/Feature.Mulyankan.model';
+import { Field, RichText as JssRichText } from '@sitecore-jss/sitecore-jss-nextjs';
+import RichTextA11yWrapper from '@/components/helpers/RichTextA11yWrapper/RichTextA11yWrapper';
 
 interface Fields {
   Text: Field<string>;
-
-}
-export type ImageProps = Mulyankan.DataTemplates.Fields.Header &{
-  fields: Mulyankan.DataTemplates.Fields.Header
 }
 export type RichTextProps = {
   params: { [key: string]: string };
@@ -30,16 +25,7 @@ export const Default = (props: RichTextProps): JSX.Element => {
     >
 
       <div className="component-content">{text}</div>
-      <div className="">hello</div>
-     
-    </div>
-  );
-};
-export const Image = (props: ImageProps): JSX.Element => {
-
-  return (
-    <div>
-     <ImageWrapper field={props.fields['Logo Image']}></ImageWrapper>
+      <RichTextA11yWrapper></RichTextA11yWrapper>
     </div>
   );
 };
