@@ -16,6 +16,18 @@ import { DefaultComponentProps } from '@/lib/component-props';
 
 
 export namespace Mulyankan.DataTemplates.Fields {
+    export type Banner = { 
+        fields?: { 
+            /**
+            * Represents the Banners field (034e8781-2c4f-44df-8026-d80dafc17573).
+            */
+            Banners: Sitecore.Override.ItemEx[];
+ 
+        }
+ }; 
+}
+
+export namespace Mulyankan.DataTemplates.Fields {
     export type CardList = 
             Mulyankan.BaseTemplates.Fields.eyebrow & 
             Mulyankan.BaseTemplates.Fields.title & 

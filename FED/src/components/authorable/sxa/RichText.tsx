@@ -1,10 +1,12 @@
 import React from 'react';
+import { Field, RichText as JssRichText, NextImage } from '@sitecore-jss/sitecore-jss-nextjs';
+import ImageWrapper from '@/components/helpers/ImageWrapper/ImageWrapper';
+import { Mulyankan } from '.generated/templates/models/Feature.Mulyankan.model';
 import { Field, RichText as JssRichText } from '@sitecore-jss/sitecore-jss-nextjs';
 import RichTextA11yWrapper from '@/components/helpers/RichTextA11yWrapper/RichTextA11yWrapper';
 
 interface Fields {
   Text: Field<string>;
-}
 
 export type RichTextProps = {
   params: { [key: string]: string };
@@ -24,6 +26,7 @@ export const Default = (props: RichTextProps): JSX.Element => {
       className={`component rich-text ${props.params.styles.trimEnd()}`}
       id={id ? id : undefined}
     >
+
       <div className="component-content">{text}</div>
       <div className="component-content">xyz</div>
       <RichTextA11yWrapper></RichTextA11yWrapper>
