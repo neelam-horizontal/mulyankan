@@ -1,5 +1,6 @@
 import React from 'react';
 import { Field, RichText as JssRichText } from '@sitecore-jss/sitecore-jss-nextjs';
+import RichTextA11yWrapper from '@/components/helpers/RichTextA11yWrapper/RichTextA11yWrapper';
 
 interface Fields {
   Text: Field<string>;
@@ -24,6 +25,8 @@ export const Default = (props: RichTextProps): JSX.Element => {
       id={id ? id : undefined}
     >
       <div className="component-content">{text}</div>
+      <div className="component-content">xyz</div>
+      <RichTextA11yWrapper></RichTextA11yWrapper>
     </div>
   );
 };
