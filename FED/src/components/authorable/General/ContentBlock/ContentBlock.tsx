@@ -36,6 +36,7 @@ const ContentBlock = ({ fields }: ContentBlockProps): JSX.Element => {
                         <span className="fs-5 fw-medium mx-4">{fields.linkTitle.value}</span>
                     </a>
     </div>
+    
   );
 };
 
