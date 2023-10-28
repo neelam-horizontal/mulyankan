@@ -1,0 +1,40 @@
+﻿---
+ID: "787c6c3b-2817-45d0-811c-8095ec1e4d3c"
+Parent: "ed4512c7-7e4c-4ba0-824b-dc91f6da30d6"
+Template: "ed4512c7-7e4c-4ba0-824b-dc91f6da30d6"
+Path: /sitecore/templates/Feature/Mulyankan/Base Templates/_description_rte/__Standard Values
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Description
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1624e4c8-da61-4981-a52a-c0630c68da48"
+      Hint: description
+      Value: |
+        <h2 style="color: #000000; background-color: #ffffff; margin: 0px 0px 10px; padding: 0px; line-height: 24px;">Why do we use it?</h2>
+        <p style="color: #000000; background-color: #ffffff; margin: 0px 0px 15px; padding: 0px; text-align: justify;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T053755Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92b68d8b-9abf-45b8-bc30-1d1402ed856d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T054241Z
