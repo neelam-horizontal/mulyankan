@@ -40,6 +40,10 @@ const PageLayout = ({ layoutData }: LayoutProps): JSX.Element => {
       <Head>
         <title>{fields?.Title?.value?.toString() || 'Page'}</title>
         <link rel="icon" href={`${publicUrl}/favicon.ico`} />
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+          rel="stylesheet"
+        ></link>
       </Head>
       {/* root placeholder for the app, which we add components to using route data */}
       <div className={mainClassPageEditing}>
