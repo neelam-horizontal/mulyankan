@@ -1,20 +1,12 @@
 ﻿---
-ID: "77d4a800-c3b6-42c1-b501-bbc91b6b21d0"
-Parent: "b1e5e98c-27ed-4c25-bfa8-6f4641e09516"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Mulyankan/Data Templates/ContentBlock/Content Block/eyebrow
+ID: "4e9eb68f-9a06-4065-9fa2-726b4a80f31b"
+Parent: "5c04a0ff-7785-4f2d-bd27-be10cd5e0e0f"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Mulyankan/Data Templates/Header/Navigations
 SharedFields:
-- ID: "337e20e1-999a-4eea-85ad-b58a03ae75cc"
-  Hint: Quick Action Bar
-  Value: |
-    {59D4EE10-627C-4FD3-A964-61A88B092CBC}
-    {F42F3E57-5A4B-49EF-A581-A60CEDC71305}
-- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
-  Hint: Type
-  Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -22,7 +14,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T064049Z
+      Value: 20231028T092222Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -33,11 +25,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "77978813-77ee-436c-b200-ce926cbb95d5"
+      Value: "eaf51281-7e9f-432e-b413-9abfbfe56622"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T090329Z
+      Value: 20231028T092502Z

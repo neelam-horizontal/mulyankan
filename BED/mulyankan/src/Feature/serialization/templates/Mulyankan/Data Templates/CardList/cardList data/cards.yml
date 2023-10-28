@@ -1,12 +1,12 @@
 ﻿---
-ID: "65f123f7-10c3-4808-b7f7-daf5bc3aee89"
-Parent: "1cb33811-983a-43d1-98c7-2463e773fd8a"
+ID: "d838792c-f7a8-4c32-a0b8-818e5b4246e6"
+Parent: "62954a71-243a-40bc-9902-cf0499931754"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Mulyankan/Data Templates/PrimaryHeaderNavigation/Navigation Items/Navigations
+Path: /sitecore/templates/Feature/Mulyankan/Data Templates/CardList/cardList data/cards
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: "query:self:://*[@@templatename='SecondaryHeaderNavigation']"
+  Value: dataSource=/sitecore/content/Mulyankan/Learning/Data/Components/CardList/Cards
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Multilist
@@ -20,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T064522Z
+      Value: 20231028T095453Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +31,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5be03546-08e4-4358-a509-68861bb81c8a"
+      Value: "e94f4e74-2b65-4a68-b84e-fe266c2a6155"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T092231Z
+      Value: 20231028T095835Z

@@ -2,11 +2,17 @@
 ID: "79b7aa99-1b0d-4f6c-9327-a38a5606a3bf"
 Parent: "3849cf46-412f-4511-8b2a-e3d57908e3f8"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Mulyankan/Base Templates/_card_image
+Path: /sitecore/templates/Feature/Mulyankan/Base Templates/_card
 SharedFields:
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {3C1715FE-6A13-4FCF-845F-DE308BA9741D}
+    {2D92C37B-30A7-4882-BFD3-F36E8CA463B1}
+    {1CF9DE37-DA73-48CF-A4D5-0D3D289F005B}
+    {3D23895C-AE15-4F39-B368-64475CF012C5}
+    {ED4512C7-7E4C-4BA0-824B-DC91F6DA30D6}
 Languages:
 - Language: en
   Versions:
@@ -25,11 +31,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d2b9ec38-da75-4349-8a53-18645060af14"
+      Value: "cb737c0a-8166-4741-a01a-5cf723cbc6c7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T072829Z
+      Value: 20231028T093858Z

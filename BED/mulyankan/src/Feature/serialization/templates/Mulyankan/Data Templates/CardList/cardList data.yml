@@ -1,15 +1,8 @@
 ﻿---
-ID: "72d12634-63df-4091-a997-6690ab103654"
-Parent: "3a1bc264-73b8-40f4-80e3-a32f22b7327c"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Mulyankan/Base Templates/_card_image/Card Image/image
-SharedFields:
-- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
-  Hint: Type
-  Value: Image
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 100
+ID: "62954a71-243a-40bc-9902-cf0499931754"
+Parent: "593a94aa-aa8a-45c3-a09f-1bb54e2531d8"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Mulyankan/Data Templates/CardList/cardList data
 Languages:
 - Language: en
   Versions:
@@ -17,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T073328Z
+      Value: 20231028T095453Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +21,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "83b24c72-4542-4222-a197-f6bb1cf620a9"
+      Value: "30e15a89-093e-4c3a-b479-816a42510077"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T073328Z
+      Value: 20231028T095835Z

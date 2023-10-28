@@ -8,6 +8,7 @@ SharedFields:
   Hint: __Base template
   Value: |
     {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {EFFA47F3-34CD-47D7-8A43-9AB02421C873}
     {3D23895C-AE15-4F39-B368-64475CF012C5}
     {7A78E70F-2B07-419F-A016-846B9C090F40}
     {2D92C37B-30A7-4882-BFD3-F36E8CA463B1}
@@ -30,11 +31,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e1ac78f7-3b90-4e38-8bd8-c132a68fea2b"
+      Value: "f110cb8e-3ef7-40c6-9b15-ebcd06998fb3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T064450Z
+      Value: 20231028T095858Z
