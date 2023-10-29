@@ -24,7 +24,7 @@ const nextConfig = {
   },
   reactStrictMode: true,
   images: {
-    domains:["scmulyankansc.dev.local"],
+    domains: ['scmulyankansc.dev.local', 'i.dummyjson.com'],
     dangerouslyAllowSVG: true,
   },
   i18n: {
@@ -63,6 +63,6 @@ const nextConfig = {
 
 module.exports = () => {
   // Run the base config through any configured plugins
-  
+
   return Object.values(plugins).reduce((acc, plugin) => plugin(acc), nextConfig);
 };

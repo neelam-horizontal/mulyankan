@@ -1,3 +1,4 @@
+import ImageWrapper from '@/components/helpers/ImageWrapper/ImageWrapper';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import React from 'react';
@@ -15,7 +16,7 @@ const Products = () => {
   };
   //
 
-  //console.log('SSR', products?.products);
+  console.log('SSR', products?.products);
   //const prodJson = JSON.parse(products);
   return (
     <>
@@ -25,11 +26,25 @@ const Products = () => {
             return (
               <>
                 {
-                  <div className="flex-auto w-[30%] min-h-[15em] max-h-10 mb-5">
+                  <div className="flex-auto w-[30%]  mb-5">
                     <Link
                       href="#"
                       className="flex justify-center flex-col h-full  block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
                     >
+                      <div className="img-wrap">
+                        <ImageWrapper
+                          // src={product?.images[0]}
+                          className="w-full  h-[200px] object-cover"
+                          field={{
+                            value: {
+                              src: product?.images[0],
+                              alt: 'adad',
+                              height: 200,
+                              width: 200,
+                            },
+                          }}
+                        />
+                      </div>
                       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         {product.title}
                       </h5>
