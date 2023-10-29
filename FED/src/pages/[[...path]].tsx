@@ -90,7 +90,17 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 // It may be called again, on a serverless function, if
 // revalidation (or fallback) is enabled and a new request comes in.
 export const getStaticProps: GetStaticProps = async (context) => {
-  const props = await sitecorePagePropsFactory.create(context);
+  let props = await sitecorePagePropsFactory.create(context);
+
+  // This is the important part. If no route exists, redirect to the _404 page.
+  if (!props.layoutData?.sitecore?.route) {
+    const path = '/_404';
+    // Update the layout from Sitecore
+    props = await sitecorePagePropsFactory.create({
+      ...context,
+      params: { ...context.params, path: path },
+    });
+  }
 
   // Check if we have a redirect (e.g. custom error page)
   if (props.redirect) {

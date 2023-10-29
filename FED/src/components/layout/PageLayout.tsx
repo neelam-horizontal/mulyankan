@@ -50,7 +50,7 @@ const PageLayout = ({ layoutData }: LayoutProps): JSX.Element => {
         <header>
           <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
         </header>
-        <main className="container mx-auto">
+        <main className="container mx-auto mt-5">
           <div id="content">{route && <Placeholder name="headless-main" rendering={route} />}</div>
         </main>
         <footer>
