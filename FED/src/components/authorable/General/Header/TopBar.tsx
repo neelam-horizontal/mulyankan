@@ -14,7 +14,7 @@ const TopBar = (props: TopBarProps): JSX.Element => {
     <div className="container mx-auto">
       <div className=" flex justify-between items-center">
         <div className="logo">
-          <ImageWrapper field={props.fields['Logo Image']}></ImageWrapper>
+          <ImageWrapper field={props?.fields['Logo Image']}></ImageWrapper>
         </div>
         <div className="information ms-auto d-flex align-items-center">
           <Text text={props.fields.Address.value} tag="small" className="ms-4"></Text>
