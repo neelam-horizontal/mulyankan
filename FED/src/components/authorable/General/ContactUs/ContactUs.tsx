@@ -10,8 +10,13 @@ const ContactUs = ({ fields }: FooterProps): JSX.Element => {
   // Fail out if fields aren't present
   if (fields === null || fields === undefined) return <></>;
 
-  console.log('props');
-  return <>Contact Us</>;
+  console.log('props', fields);
+  console.log('props ->', fields?.eyebrow?.value);
+  return (
+    <>
+      <RichTextA11yWrapper field={fields?.eyebrow?.value} />
+    </>
+  );
 };
 
 export default ContactUs;
