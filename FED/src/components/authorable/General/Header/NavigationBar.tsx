@@ -11,7 +11,7 @@ const Navigation = (props: NavBarProps): JSX.Element => {
   return (
     <div className="container mx-auto">
       <div className=" flex justify-between">
-        <ul className="flex flex-row gap-4">
+        <ul className="flex flex-row gap-12">
           {props?.fields?.NavigationItems.map((item: any, index: number) => {
             return (
               <>
