@@ -12,11 +12,15 @@ const ContactUs = ({ fields }: FooterProps): JSX.Element => {
   if (fields === null || fields === undefined) return <></>;
 
   console.log('props', fields);
-  console.log('props ->', fields?.eyebrow?.value);
+  console.log('eye ->', fields?.eyebrow?.value);
+  console.log('add ->', fields?.address?.value);
   return (
     <>
       <RichTextA11yWrapper field={fields?.eyebrow?.value} />
-      <Form />
+      <div className="flex justify-between">
+        <Form />
+        <iframe src={fields?.address?.value} width="600" height="450" aria-hidden="false" />
+      </div>
     </>
   );
 };
