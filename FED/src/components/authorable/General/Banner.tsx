@@ -8,7 +8,7 @@ import { Mulyankan } from ".generated/templates/models/Feature.Mulyankan.model";
 import ImageWrapper from "@/components/helpers/ImageWrapper/ImageWrapper";
 import Slider from "react-slick";
 
-type CarouselProps = Mulyankan.DataTemplates.Fields.Banner & {
+export type CarouselProps = Mulyankan.DataTemplates.Fields.Banner & {
   fields: Mulyankan.DataTemplates.Fields.Banner
   }
 
@@ -25,8 +25,8 @@ const Banner = (props: CarouselProps): JSX.Element => {
     arrows: true,
     fade: true,
     infinite: true,
-    autoplaySpeed: 1000,
-    autoplay: false,
+    autoplaySpeed: 10000,
+    autoplay: true,
   };
   return (
     <Slider {...sliderSettings}>
@@ -47,10 +47,11 @@ const Banner = (props: CarouselProps): JSX.Element => {
                     <div className="container">
                       <div className="flex justify-start">
                         <div className="col-lg-7 animated slideInLeft text-left">
-                          <RichText className="" field={image.fields.ImageCaption} />
-                          <div className="bg-blue-500 text-white rounded-full py-3 px-5 animate__animated animate__slideInLeft">
-                          <Link field={image.fields.TargetUrl}></Link>
-                          </div>
+                          <RichText className="" field={image.fields.eyebrow} />
+                          <h1 className="display-1 mb-4 animated slideInRight">{image.fields.title.value}</h1>
+                          {/* <div className="bg-blue-500 text-white rounded-full py-3 px-5 animate__animated animate__slideInLeft"> */}
+                          <Link field={image.fields.link.value}></Link>
+
                         </div>
                       </div>
                     </div>
