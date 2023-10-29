@@ -9,30 +9,32 @@ export type NavBarProps = Mulyankan.DataTemplates.Fields.Header & {
 
 const Navigation = (props: NavBarProps): JSX.Element => {
   return (
-    <div>
-      <ul>
-        {props?.fields?.NavigationItems.map((item: any, index: number) => {
-          return (
-            <>
-              <li key={index}>
-                <Link
-                  href={item.fields.link.value.href}
-                  className={``}
-                  data-element-id="navigation"
-                  data-element-type="textLink"
-                  data-element-ui-location="headerMenu"
-                >
-                  {item.name}
-                </Link>
-              </li>
+    <div className="container mx-auto">
+      <div className=" flex justify-between">
+        <ul className="flex flex-row gap-4">
+          {props?.fields?.NavigationItems.map((item: any, index: number) => {
+            return (
+              <>
+                <li key={index} className="py-[20px]">
+                  <Link
+                    href={item.fields.link.value.href}
+                    className={``}
+                    data-element-id="navigation"
+                    data-element-type="textLink"
+                    data-element-ui-location="headerMenu"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
 
-              {/* <ul>
+                {/* <ul>
                 <li>{item?.fields?.Navigations?.map((e) => e.fields.linkTitle.value)}</li>
               </ul> */}
-            </>
-          );
-        })}
-      </ul>
+              </>
+            );
+          })}
+        </ul>
+      </div>
     </div>
   );
 };
