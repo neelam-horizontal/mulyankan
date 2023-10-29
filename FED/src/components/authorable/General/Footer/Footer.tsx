@@ -69,12 +69,6 @@ const Footer = ({ fields }: FooterProps): JSX.Element => {
               </div>
               <div className="col-span-3">
                 <h4 className="text-white mb-4">{fields.businessTitle.value}</h4>
-                {/* <p className="mb-1">Monday - Friday</p>
-                <h6 className="text-light">09:00 am - 07:00 pm</h6>
-                <p className="mb-1">Saturday</p>
-                <h6 className="text-light">09:00 am - 12:00 pm</h6>
-                <p className="mb-1">Sunday</p>
-                <h6 className="text-light">Closed</h6>  */}
                 <RichTextA11yWrapper field={fields.businessDescription}></RichTextA11yWrapper>
               </div>
             </div>
